@@ -1,9 +1,10 @@
 #root {
   margin: 0 auto;
   text-align: center;
+  overflow-x: hidden;
 }
 
-#content {
+#topContent {
   margin-inline: 7%;
   padding-bottom: 5%;
 }
@@ -29,15 +30,31 @@
   margin-top: 2%;
   text-shadow: 0 0 7px rgba(0, 187, 255, 0.788), 0 0 10px rgba(0, 187, 255, 0.788);
   animation: flicker 2.5s ease-out infinite alternate;  
+  transition: 0.5s;
+  position: relative;
+  top: 0px;
 }
 
 #contactButtonTitle:hover {
   cursor: pointer;
+  text-shadow: 0 0 7px aqua, 0 0 10px aqua;
+  transition: 0.5s;
+  top: -8px;
+}
+
+#mockup {
+  position: absolute;
+  z-index: 2;
+  max-width: 40%;
+  margin: 0;
+  padding: 0;
+  top: 10%;
+  opacity: 0.8;
 }
 
 #buffer {
   width: 100vw;
-  min-height: 50px;
+  min-height: 60px;
   position: relative;
   z-index: 1;
   background-color: black;
