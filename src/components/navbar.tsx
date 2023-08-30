@@ -4,7 +4,7 @@ function Navbar () {
     return (
         <>
             <div id='wrapper'>
-                <div id='titleWrapper'>
+                <div id='navTitleWrapper'>
                     <h2 className='titleItem'>Sierra Nevada</h2>
                     <h2 className='titleItem'>Web Designs</h2>
                 </div>
