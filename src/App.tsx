@@ -1,10 +1,12 @@
 import './styles/App.css';
+import Navbar from './components/navbar';
 
 function App() {
 
   return (
     <>
-      <h1>Sierra Nevada Web Designs</h1>
+      <Navbar/>
+      <h1>Web Design & Development For Small Businesses</h1>
     </>
   );
 }
