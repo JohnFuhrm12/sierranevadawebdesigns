@@ -1,6 +1,6 @@
 import '../styles/navbar.css';
 
-function Navbar () {
+function Navbar() {
     return (
         <>
             <div id='wrapper'>

@@ -1,22 +1,33 @@
 import './styles/App.css';
 import Navbar from './components/navbar';
+import Home from './components/Home';
+import Footer from './components/Footer';
 
 function App() {
 
+  window.addEventListener('scroll', fadeIn);
+
+  function fadeIn() {
+    const fade = document.querySelectorAll('.fade')
+
+    for (let i = 0; i < fade.length; i++) {
+      const windowheight = window.innerHeight;
+      const revealtop = fade[i].getBoundingClientRect().top;
+      const revealpoint = 10;
+
+      if (revealtop < windowheight - revealpoint) {
+        fade[i].classList.add('active');
+      } else {
+        fade[i].classList.remove('active');
+      }
+    }
+  } 
+
   return (
     <>
-    <div id='topContent'>
-      <Navbar/>
-        <div id='titleWrapper'>
-          <h1 id='title'>Web Design & Development For Small Businesses</h1>
-          <button id='contactButtonTitle'>Work With Us</button>
-        </div>
-        <img id='mockup' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693372448/qntzs1n6cyxtwu3ofrql.png' alt='Display Site'/>
-    </div>
-    <div id='buffer'></div>
-    <svg id='wave' viewBox="0 0 500 200">
-      <path d="M 0 30 C 150 100 280 0 500 20 L 500 0 L 0 0" fill="rgb(0, 0, 0)"></path>
-    </svg>
+    <Navbar/>
+    <Home/>
+    <Footer/>
     </>
   );
 }
