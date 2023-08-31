@@ -1,13 +1,23 @@
 #footerWrapper {
     display: flex;
     flex-direction: row;
-    border-bottom: solid 3px rgba(0, 187, 255, 0.788);
     margin-bottom: 2%;
     margin-inline: 12%;
     padding-bottom: 2%;
     justify-content: space-around;
-    padding-left: 40%;
+    padding-left: 15%;
+    box-shadow: 0px 4px 2px -2px rgba(0, 187, 255, 0.788);
+    animation: borderFlicker 1.5s ease-out infinite alternate;  
 }
+
+@keyframes borderFlicker {
+    0% {
+        box-shadow: 0px 3px 2px -2px rgba(0, 187, 255, 0.788);
+    }
+    100%{       
+        box-shadow: 0px 5px 2px -2px rgba(0, 187, 255, 0.788);
+    }
+  }
 
 .footerLinksWrapper {
     display: flex;
@@ -37,7 +47,47 @@
     text-shadow: 0 0 5px aqua, 0 0 10px aqua;
 }
 
+.footerLinkSmall {
+    cursor: pointer;
+    margin: 0;
+    font-size: 16px;
+    margin-bottom: 3%;
+    transition: 0.5s;
+}
+
+.footerLinkSmall:hover {
+    transition: 0.5s;
+    text-shadow: 0 0 5px aqua, 0 0 10px aqua;
+}
+
 #copyright {
     font-size: 14px;
     margin-bottom: 2%;
 }
+
+#footerContact {
+    -webkit-transform: rotate(-90deg);
+    margin-bottom: -1%;
+    text-shadow: 0 0 5px aqua, 0 0 10px aqua;
+    font-size: 30px;
+    margin-right: -15%;
+    position: relative;
+    z-index: 0;
+    animation: flickerContact 1.5s ease-out infinite alternate;  
+}
+
+.footerLinksWrapperContact {
+    margin-top: 5%;
+    position: relative;
+    z-index: 1;
+    text-align: left;
+}
+
+@keyframes flickerContact {
+    0% {
+      text-shadow: 0 0 4px aqua, 0 0 10px aqua;
+    }
+    100% {       
+        text-shadow: 0 0 30px aqua, 0 0 10px aqua;
+    }
+  }

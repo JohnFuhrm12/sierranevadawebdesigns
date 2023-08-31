@@ -4,6 +4,11 @@ function Footer() {
     return (
         <>
         <div className='fade' id="footerWrapper">
+            <h2 id='footerContact'>Contact Us</h2>
+            <div className='footerLinksWrapperContact'>
+                <h2 className='footerLinkSmall'>snwebdesigns@gmail.com</h2>
+                <h2 className='footerLinkSmall'>+1 (609)-351-0536</h2>
+            </div>
             <div className="footerLinksWrapper">
                 <h2 className="footerLinkTitle">Navigate</h2>
                 <h2 className="footerLink">Home</h2>
@@ -20,7 +25,7 @@ function Footer() {
                 <h2 className="footerLink">Content Creation</h2>
             </div>
         </div>
-        <h2 id='copyright'>Copyright © 2023 | Sierra Nevada Web Designs, LLC | All Rights Reserved</h2>
+        <h2 id='copyright'>Copyright © 2023 | Sierra Nevada Web Designs LLC | All Rights Reserved</h2>
         </>
     )
 }

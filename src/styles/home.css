@@ -120,6 +120,12 @@
     font-size: 25px;
     margin-inline: 10%;
   }
+
+  #offerContent {
+    position: relative;
+    top: -10%;
+    margin-inline: 7%;
+  }
   
   @media (max-width: 600px) {
     #titleWrapper {

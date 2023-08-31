@@ -18,6 +18,10 @@ function Home() {
             <h2 className='subTitle'><span className='subTitleBlue'>Our</span> Mission</h2>
             <p className='infoPara'>We create fully responsive, personalized, and 100% hand coded websites for small businesses in and outside of the United States. Our goal is to create a beautiful and optimized website that will bring more traffic, and customers, to your business.</p>
         </div>
+        <div className='fade' id='offerContent'>
+            <h2 className='subTitle'><span className='subTitleBlue'>What</span> You Get</h2>
+            <p className='infoPara'>We create fully responsive, personalized, and 100% hand coded websites for small businesses in and outside of the United States. Our goal is to create a beautiful and optimized website that will bring more traffic, and customers, to your business.</p>
+        </div>
         </>
     );
 }
