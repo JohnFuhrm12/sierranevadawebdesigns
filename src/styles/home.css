@@ -103,7 +103,7 @@
 
   #aboutContent {
     position: relative;
-    top: -20%;
+    top: -15%;
     margin-inline: 7%;
   }
 
@@ -119,12 +119,55 @@
   .infoPara {
     font-size: 25px;
     margin-inline: 10%;
+    margin-bottom: 3%;
   }
 
   #offerContent {
     position: relative;
     top: -10%;
     margin-inline: 7%;
+  }
+
+  #portfolioButton {
+    padding: 2%;
+    font-size: 20px;
+    border-radius: 15px;
+    border: solid 3px rgba(0, 187, 255, 0.788);
+    box-shadow: 0px 0px 30px rgba(0, 187, 255, 0.788);
+    background-color: black;
+    max-width: 35%;
+    margin-top: 2%;
+    text-shadow: 0 0 7px rgba(0, 187, 255, 0.788), 0 0 10px rgba(0, 187, 255, 0.788);
+    animation: flicker 2.5s ease-out infinite alternate;  
+    transition: 0.5s;
+    position: relative;
+    top: 20px;
+  }
+
+  #portfolioButton:hover {
+    cursor: pointer;
+    text-shadow: 0 0 7px aqua, 0 0 10px aqua;
+    transition: 0.5s;
+    top: 14px;
+  }
+
+  #homePortfolioWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
+
+  .mockupPortfolio {
+    position: relative;
+    max-width: 30%;
+    margin: 0;
+    padding: 0;
+    top: 13%;
+    opacity: 0.8;
+    filter: drop-shadow(0px 2px 3px rgba(0, 187, 255, 0.788));
+    animation: mockFlicker 2.5s ease-out infinite alternate;  
   }
   
   @media (max-width: 600px) {

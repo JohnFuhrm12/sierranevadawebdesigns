@@ -20,7 +20,14 @@ function Home() {
         </div>
         <div className='fade' id='offerContent'>
             <h2 className='subTitle'><span className='subTitleBlue'>What</span> You Get</h2>
-            <p className='infoPara'>We create fully responsive, personalized, and 100% hand coded websites for small businesses in and outside of the United States. Our goal is to create a beautiful and optimized website that will bring more traffic, and customers, to your business.</p>
+            <p className='infoPara'>You will recieve a completely handcoded and personalized website that is fully responsive and optimized, no website builders. You are taken through the design process and will be able to make as many changes and improvements as you would like before, during, and even the first month after launch. Websites are available in English, Spanish, or both! </p>
+            <p className='infoPara'>We stay in contact and walk you through domains, hosting, and maintenance, and we only deliver if you are 100% satisfied with your site.</p>
+            <div id='homePortfolioWrapper'>
+                <img className='mockupPortfolio' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693372448/qntzs1n6cyxtwu3ofrql.png' alt='Reef Supplies Site'/>
+                <img id='surfMockup' className='mockupPortfolio' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693463575/mammqpa0fuijhg960yvf.png' alt='Hawaii Surf Site'/>
+                <img className='mockupPortfolio' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693372448/qntzs1n6cyxtwu3ofrql.png' alt='Reef Supplies Site'/>
+            </div>
+            <button id='portfolioButton'>Our Portfolio</button>
         </div>
         </>
     );
