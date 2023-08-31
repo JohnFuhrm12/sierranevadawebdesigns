@@ -4,6 +4,7 @@ function Footer() {
     return (
         <>
         <div className='fade' id="footerWrapper">
+            <p id='footerAboutPara'>Sierra Nevada Web Designs is a local, NJ based web development company. Our goal is to create affordable, responsive, and stunning websites for small businesses.</p>
             <h2 id='footerContact'>Contact Us</h2>
             <div className='footerLinksWrapperContact'>
                 <h2 className='footerLinkSmall'>snwebdesigns@gmail.com</h2>

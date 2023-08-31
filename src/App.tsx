@@ -2,6 +2,9 @@ import './styles/App.css';
 import Navbar from './components/navbar';
 import Home from './components/Home';
 import Footer from './components/Footer';
+import Services from './components/Services';
+
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
 
@@ -26,10 +29,13 @@ function App() {
   return (
     <>
     <Navbar/>
-    <Home/>
+    <Routes>
+      <Route path='/' element={ <Home/> }></Route>
+      <Route path='/services' element={ <Services/> }></Route>
+    </Routes>
     <Footer/>
     </>
-  );
+  )
 }
 
 export default App;
