@@ -7,9 +7,16 @@ function Services() {
           <h1 className='title'><span className='titleBlue'>Our</span>Services</h1>
           <div className='infoBlocks'>
             <div className='infoBlock'>
-                <h2 className='subTitlePage'><span className='titleBlue'>Web</span>Design & Development</h2>
-                <p className='infoParaLarge'>We design the layout and content of your site and then diligently hand code it from the ground up. You end up recieving a fast, optimized site without any unnecessary bloat from page builders. We keep in constant contact throughout the entire design process to make sure that you not only love the design, but are able to make all of the changes you want at any time.</p>
-                <p className='infoParaLarge'>When you are happy with the design and layout of the site, we build it and provide you with a demo link after completion so that you can approve everything and make any changes before your site is live.</p>
+                <div className='contentWrapperServices'>
+                    <div className='contentBlockImg'>
+                        <img className='infoImg' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693547686/dw0p59l0ij52jkc0z0ij.jpg'/>
+                    </div>
+                    <div className='contentBlockText'>
+                        <h2 className='subTitlePage'><span className='titleBlue'>Web</span>Design & Development</h2>
+                        <p className='infoParaLarge'>We design the layout and content of your site and then diligently hand code it from the ground up. You end up recieving a fast, optimized site without any unnecessary bloat from page builders. We keep in constant contact throughout the entire design process to make sure that you not only love the design, but are able to make all of the changes you want at any time.</p>
+                        <p className='infoParaLarge'>When you are happy with the design and layout of the site, we build it and provide you with a demo link after completion so that you can approve everything and make any changes before your site is live.</p>
+                    </div>
+                </div>
             </div>
             <div className='infoBlock'>
                 <h2 className='subTitlePage'><span className='titleBlue'>SEO</span>Optimized & Responsive</h2>

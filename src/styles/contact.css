@@ -1,0 +1,73 @@
+#contactBackground {
+    background-image: url('https://res.cloudinary.com/dvmw658s9/image/upload/v1693591215/nadnr5i9x9tl6ynkzwdd.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#contactFormBackground {
+    background-color: black;
+    background: linear-gradient(90deg, black 0%, rgba(0,0,0,1) 55%, rgba(0, 187, 255, 0.419) 100%);
+    padding-top: 5%;
+    padding-bottom: 15%;
+}   
+
+#infoBlocksContact {
+    padding-top: 5%;
+}
+
+#contactForm {
+   display: flex;
+   flex-direction: column;
+   margin-inline: 25%;
+   padding: 3%;
+   border: solid 3px rgba(0, 187, 255, 0.788);
+   box-shadow: 0px 0px 20px rgba(0, 187, 255, 0.788);
+   border-radius: 8px;
+}
+
+#contactForm input{
+    font-size: 20px;
+    padding: 10px;
+    border: solid 3px rgba(0, 187, 255, 0.788);
+    box-shadow: 0px 0px 15px rgba(0, 187, 255, 0.788);
+    margin-bottom: 5%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 55%, rgba(0, 187, 255, 0.604) 100%);
+ }
+
+ #contactForm textarea{
+    font-size: 20px;
+    padding: 10px;
+    min-height: 200px;
+    resize: vertical;
+    max-height: 800px;
+    border: solid 3px rgba(0, 187, 255, 0.788);
+    box-shadow: 0px 0px 15px rgba(0, 187, 255, 0.788);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 55%, rgba(0, 187, 255, 0.604) 100%);
+ }
+
+ #contactSubmitButton {
+    padding: 2%;
+    font-size: 20px;
+    border-radius: 10px;
+    border: solid 3px rgba(0, 187, 255, 0.788);
+    box-shadow: 0px 0px 30px rgba(0, 187, 255, 0.788);
+    background-color: black;
+    max-width: 35%;
+    text-shadow: 0 0 7px rgba(0, 187, 255, 0.788), 0 0 10px rgba(0, 187, 255, 0.788);
+    animation: flicker 2.5s ease-out infinite alternate;  
+    transition: 0.5s;
+    position: relative;
+    top: 0px;
+    margin-top: 5%;
+    margin-left: 70%;
+ }
+
+ #contactSubmitButton:hover {
+    cursor: pointer;
+    text-shadow: 0 0 7px aqua, 0 0 10px aqua;
+    transition: 0.5s;
+    top: -8px;
+ }
