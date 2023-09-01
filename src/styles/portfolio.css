@@ -1,0 +1,34 @@
+#portfolioBackground {
+    background-image: url('https://res.cloudinary.com/dvmw658s9/image/upload/v1693597071/ok36jx3hsiazussfp3ay.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#subtitlePortfolio {
+    margin-bottom: 2%;
+}
+
+.contentWrapperPortfolio {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+
+.contentBlockImgPortfolio {
+    width: 40%;
+    margin-left: 5%;
+}
+
+.portfolioMockupImg {
+    width: 100%;
+    filter: drop-shadow(0px 2px 3px rgba(0, 187, 255, 0.788));
+    animation: mockFlicker 2.5s ease-out infinite alternate; 
+}
+
+.contentBlockTextPortfolio {
+    width: 60%;
+    margin-top: 2%;
+}
