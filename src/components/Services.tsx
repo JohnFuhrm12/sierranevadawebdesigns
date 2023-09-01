@@ -4,7 +4,7 @@ function Services() {
     return (
         <>
         <div id='servicesBackground'>
-          <h1 className='title'><span className='titleBlue'>Our</span>Services</h1>
+          <h1 id='servicesTitle' className='title'><span className='titleBlue'>Our</span>Services</h1>
           <div className='infoBlocks'>
             <div className='infoBlock'>
                 <div className='contentWrapperServices'>

@@ -1,0 +1,24 @@
+#aboutBackground {
+    background-image: url('https://res.cloudinary.com/dvmw658s9/image/upload/v1693593174/u5xwhg9lz5hgtxfawazx.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    padding-top: 5%;
+    padding-bottom: 3%;
+    font-size: 50px;
+}
+
+.titleBlue {
+    color: rgba(0, 187, 255, 0.788);
+    margin-right: 0.3em;
+    font-size: 50px;
+}
+
+#titleAbout {
+    padding-bottom: 10%;
+}
