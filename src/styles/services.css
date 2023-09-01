@@ -1,0 +1,61 @@
+.title {
+    padding-top: 5%;
+    padding-bottom: 3%;
+    font-size: 50px;
+}
+
+.titleBlue {
+    color: rgba(0, 187, 255, 0.788);
+    margin-right: 0.3em;
+    font-size: 50px;
+}
+
+.subTitlePage {
+    font-size: 40px;
+} 
+
+#servicesBackground {
+    background-image: url('https://res.cloudinary.com/dvmw658s9/image/upload/v1693538447/jgmmngvl1dbpmbdv0k6g.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.infoBlock {
+    background-color: black;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.infoBlockTransparent {
+    background: none;
+}
+
+.infoParaLarge {
+    font-size: 25px;
+    margin-inline: 15%;
+    margin-bottom: 3%;
+    font-weight: bold;
+    text-align: left;
+}
+
+#servicesSecondBackground {
+    background-image: url('https://res.cloudinary.com/dvmw658s9/image/upload/v1693540662/o6qc6hrr1tbqo8nzfopb.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.subTitleSmall {
+    font-size: 25px;
+}
+
+.subTitleSmallBlue {
+    color: rgba(0, 187, 255, 0.788);
+}

@@ -7,7 +7,7 @@ function Navbar() {
             <div id='wrapper'>
                 <div id='navTitleLogoWrapper'>
                     <Link to='/'>
-                    <img id='logo' src='=' alt=''/>
+                    <img id='logo' src='' alt=''/>
                     <div id='navTitleWrapper'>
                         <h2 className='titleItem'>Sierra Nevada</h2>
                         <h2 className='titleItem'>Web Designs</h2>
