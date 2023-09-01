@@ -1,4 +1,5 @@
 import '../styles/footer.css';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -12,18 +13,18 @@ function Footer() {
             </div>
             <div className="footerLinksWrapper">
                 <h2 className="footerLinkTitle">Navigate</h2>
-                <h2 className="footerLink">Home</h2>
-                <h2 className="footerLink">About</h2>
-                <h2 className="footerLink">Services</h2>
-                <h2 className="footerLink">Portfolio</h2>
-                <h2 className="footerLink">Contact</h2>
+                <Link to='/' className="footerLink">Home</Link>
+                <Link to='/about' className="footerLink">About</Link>
+                <Link to='/services' className="footerLink">Services</Link>
+                <Link to='/portfolio' className="footerLink">Portfolio</Link>
+                <Link to='/contact' className="footerLink">Contact</Link>
             </div>
             <div className="footerLinksWrapper">
                 <h2 className="footerLinkTitle">Services</h2>
-                <h2 className="footerLink">Web Design</h2>
-                <h2 className="footerLink">Web Development</h2>
-                <h2 className="footerLink">SEO Optimization</h2>
-                <h2 className="footerLink">Content Creation</h2>
+                <Link to='/services' className="footerLink">Web Design</Link>
+                <Link to='/services' className="footerLink">Web Development</Link>
+                <Link to='/services' className="footerLink">SEO Optimization</Link>
+                <Link to='/services' className="footerLink">Content Creation</Link>
             </div>
         </div>
         <h2 id='copyright'>Copyright © 2023 | Sierra Nevada Web Designs LLC | All Rights Reserved</h2>

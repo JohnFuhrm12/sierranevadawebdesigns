@@ -17,6 +17,12 @@
     cursor: pointer;
 }
 
+#navTitleLogoWrapper a {
+   text-decoration: none;
+   color: white;
+   margin-top: -2rem;
+}
+
 #logo {
     max-width: 50%;
     max-height: 50%;
@@ -38,12 +44,17 @@
 }
 
 .navItem {
-    margin-inline: 0.6em;
+    margin-inline: 0.4em;
     transition: 0.5s;
     padding: 10px;
     border-radius: 16px;
     transition-timing-function: cubic-bezier(.58,.3,.005,1);
     border: solid 3px black;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    max-height: 40px;
 }
 
 .navItem:hover {
