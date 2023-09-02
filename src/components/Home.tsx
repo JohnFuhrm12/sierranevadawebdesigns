@@ -1,12 +1,14 @@
 import '../styles/home.css';
+import { Link } from 'react-router-dom';
 
 function Home() {
+
     return (
         <>
         <div id='topContent'>
             <div id='titleWrapper'>
             <h1 id='title'>Web Design & Development For Small Businesses</h1>
-            <button id='contactButtonTitle'>Work With Us</button>
+            <Link to='/contact' id='contactButtonTitle'>Work With Us</Link>
             </div>
             <img id='mockup' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693372448/qntzs1n6cyxtwu3ofrql.png' alt='Display Site'/>
         </div>
@@ -27,7 +29,7 @@ function Home() {
                 <img className='mockupPortfolio' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693372448/qntzs1n6cyxtwu3ofrql.png' alt='Reef Supplies Site'/>
                 <img className='mockupPortfolio' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693509632/zf8pwwcboovysxfae2c8.png' alt='Pastry Site'/>
             </div>
-            <button id='portfolioButton'>View Our Portfolio</button>
+            <Link to='/portfolio' id='portfolioButton'>View Our Portfolio</Link>
         </div>
         </>
     );

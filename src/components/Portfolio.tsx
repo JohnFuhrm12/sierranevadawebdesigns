@@ -1,6 +1,18 @@
 import '../styles/portfolio.css';
 
 function Portfolio() {
+    function aquatics() {
+        window.open('https://reefstore.netlify.app//', '_blank');
+    }
+
+    function surf() {
+        window.open('https://hawaiisurf.netlify.app/', '_blank');
+    }
+
+    function dharma() {
+        window.open('https://dharmapasteleria.netlify.app/', '_blank');
+    }
+
     return (
         <>
         <div id='portfolioBackground'>
@@ -11,10 +23,11 @@ function Portfolio() {
                 <div className='contentWrapperPortfolio'>
                     <div className='contentBlockImgPortfolio'>
                         <img className='portfolioMockupImg' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693372448/qntzs1n6cyxtwu3ofrql.png'/>
+                        <button className='portfolioButton' onClick={aquatics}>Visit Site</button>
                     </div>
                     <div className='contentBlockTextPortfolio'>
                         <h2 className='subTitlePage'><span className='titleBlue'>JF</span>Aquatics</h2>
-                        <p className='infoParaLarge'>A reefing e-commerce site selling fish, corals, and tanks. Firebase was used as a back-end to store all of the products. The site is integrated with paypal to easily conduct e-commerce.</p>
+                        <p className='infoParaLarge'>A reefing e-commerce site selling fish, corals, and tanks. Firebase was used as a back-end to store all of the products. The site is integrated with Paypal to easily conduct e-commerce.</p>
                     </div>
                 </div>
                 <div className='contentWrapperPortfolio'>
@@ -24,15 +37,17 @@ function Portfolio() {
                     </div>
                     <div className='contentBlockImgPortfolio'>
                         <img className='portfolioMockupImg' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693463575/mammqpa0fuijhg960yvf.png'/>
+                        <button className='portfolioButton' onClick={surf}>Visit Site</button>
                     </div>
                 </div>
                 <div className='contentWrapperPortfolio'>
                     <div className='contentBlockImgPortfolio'>
                         <img className='portfolioMockupImg' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693509632/zf8pwwcboovysxfae2c8.png'/>
+                        <button className='portfolioButton' onClick={dharma}>Visit Site</button>
                     </div>
                     <div className='contentBlockTextPortfolio'>
                         <h2 className='subTitlePage'><span className='titleBlue'>Dharma</span>Pastelería</h2>
-                        <p className='infoParaLarge'>A pastry and bakery business in Buenos Aires, Argentina. Firebase was incorporated as a back-end along with a client-side admin page to easily update products. The site is integrated with paypal to easily conduct e-commerce.</p>
+                        <p className='infoParaLarge'>A pastry and bakery business in Buenos Aires, Argentina. Firebase was incorporated as a back-end along with a client-side admin page to easily update products. The site is also integrated with Paypal.</p>
                     </div>
                 </div>
             </div>
