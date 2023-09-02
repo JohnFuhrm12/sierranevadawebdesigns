@@ -14,6 +14,14 @@ function Navbar() {
 
     }
 
+    function closeNav() {
+        const hamburgerMenu = document.getElementById('menuCheck') as HTMLInputElement;
+        const mobileNav = document.getElementById('hamburgerNav') as HTMLInputElement;
+
+        hamburgerMenu.checked = false;
+        mobileNav.style.translate = '-100%';
+    }
+
     return (
         <>
             <div id='wrapper'>
@@ -38,11 +46,11 @@ function Navbar() {
                 </nav>
             </div>
             <div id='hamburgerNav'>
-                <Link to='/' className='mobileNavLink'>Home</Link>
-                <Link to='/about' className='mobileNavLink'>About</Link>
-                <Link to='/services' className='mobileNavLink'>Services</Link>
-                <Link to='/portfolio' className='mobileNavLink'>Portfolio</Link>
-                <Link to='/contact' className='mobileNavLink'>Contact</Link>
+                <Link to='/' className='mobileNavLink' onClick={closeNav}>Home</Link>
+                <Link to='/about' className='mobileNavLink' onClick={closeNav}>About</Link>
+                <Link to='/services' className='mobileNavLink' onClick={closeNav}>Services</Link>
+                <Link to='/portfolio' className='mobileNavLink' onClick={closeNav}>Portfolio</Link>
+                <Link to='/contact' className='mobileNavLink' onClick={closeNav}>Contact</Link>
             </div>
         </>
     );

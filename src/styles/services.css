@@ -82,3 +82,46 @@
 .contentBlockImg {
     width: 90%;
 }
+
+@media (max-width: 600px) {
+    #servicesTitle {
+        padding-bottom: 5%;
+    }
+
+    .subTitlePage {
+        font-size: 30px;
+    } 
+
+    .titleBlue {
+        font-size: 30px;
+    }
+
+    .infoParaLarge {
+        font-size: 16px;
+        margin-inline: 7%;
+        margin-bottom: 3%;
+    }
+
+    .contentWrapperServices {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .infoImg {
+        margin: 0 auto;
+        max-width: 50%;
+        margin-top: 10%;
+        margin-left: 15%;
+    }
+
+    .subTitleSmall {
+        font-size: 16px;
+        text-align: left;
+        margin-inline: 7%;
+    }
+
+    .infoBlock {
+        padding-bottom: 5%;
+    }
+    
+}

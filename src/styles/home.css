@@ -183,10 +183,54 @@
   
     #title  {
         font-size: 20px;
+        padding-bottom: 5%;
     }
   
     #contactButtonTitle {
       font-size: 15px;
       padding: 3%;
+    }
+
+    #aboutContent {
+      top: -5%;
+      margin-inline: 0;
+    }
+
+ 
+    .subTitle {
+      font-size: 35px;
+      margin-bottom: 0;
+    }
+
+    .subTitleBlue {
+      font-size: 35px;
+      margin-bottom: 0;
+    }
+  
+    .infoPara {
+      font-size: 16px;
+      margin-inline: 3%;
+    }
+
+    #offerContent {
+      position: relative;
+      top: -5%;
+      margin-inline: 7%;
+    }
+
+    #homePortfolioWrapper {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .mockupPortfolio {
+      max-width: 80%;
+      left: 10%;
+    }
+
+    #mockup {
+      max-width: 60%;
+      top: 12%;
+      right: 1%; 
     }
 }

@@ -55,3 +55,29 @@
     transition: 0.5s;
     top: -8px;
 }
+
+@media (max-width: 600px) {
+    .contentWrapperPortfolio {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 5%;
+    }
+
+    .portfolioButton {
+        padding: 5%;
+        font-size: 18px;
+        max-width: 70%;
+        margin-top: 2%;
+    }
+
+    .contentBlockImgPortfolio {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .contentBlockTextPortfolio {
+        width: 100%;
+        margin-top: 2%;
+    }
+
+}

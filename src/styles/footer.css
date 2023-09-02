@@ -102,3 +102,34 @@
         text-shadow: 0 0 30px aqua, 0 0 10px aqua;
     }
   }
+
+@media (max-width: 600px) {
+    #footerWrapper {
+        display: flex;
+        flex-direction: column;
+        margin-inline: 10%;
+    }
+
+    #footerAboutPara {
+        max-width: 100%;
+    }
+
+    #footerContact {
+        -webkit-transform: rotate(0deg);
+        margin-top: 20%;
+        margin-bottom: 5%;
+        margin-right: 0%; 
+    }
+
+    .footerLinkTitle {
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+
+    #copyright {
+        font-size: 10px;
+        margin-bottom: 8%;
+        margin-top: 5%;
+    }
+}
