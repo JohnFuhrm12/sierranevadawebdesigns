@@ -38,11 +38,11 @@ function Navbar() {
                 </nav>
             </div>
             <div id='hamburgerNav'>
-                <h2>Home</h2>
-                <h2>About</h2>
-                <h2>Services</h2>
-                <h2>Portfolio</h2>
-                <h2>Contact</h2>
+                <Link to='/' className='mobileNavLink'>Home</Link>
+                <Link to='/about' className='mobileNavLink'>About</Link>
+                <Link to='/services' className='mobileNavLink'>Services</Link>
+                <Link to='/portfolio' className='mobileNavLink'>Portfolio</Link>
+                <Link to='/contact' className='mobileNavLink'>Contact</Link>
             </div>
         </>
     );
