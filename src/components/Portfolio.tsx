@@ -22,7 +22,7 @@ function Portfolio() {
                 <h2 id='subtitlePortfolio' className='subTitlePage'><span className='titleBlue'>What</span>We Have Created</h2>
                 <div className='contentWrapperPortfolio'>
                     <div className='contentBlockImgPortfolio'>
-                        <img className='portfolioMockupImg' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693372448/qntzs1n6cyxtwu3ofrql.png'/>
+                        <img className='portfolioMockupImg' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693713116/Sierra%20Nevada%20Web%20Designs/keitflfmcmhdzd9zne2u.png'/>
                         <button className='portfolioButton' onClick={aquatics}>Visit Site</button>
                     </div>
                     <div className='contentBlockTextPortfolio'>
@@ -36,13 +36,13 @@ function Portfolio() {
                         <p className='infoParaLarge'>A surf and weather forecast application centered around Hawai'i. The site draws buoy data from around the islands and makes use of an algorithm to predict wave heights and conditions. Users can login and add their favorite surf spots to their account to track.</p>
                     </div>
                     <div className='contentBlockImgPortfolio'>
-                        <img className='portfolioMockupImg' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693463575/mammqpa0fuijhg960yvf.png'/>
+                        <img className='portfolioMockupImg' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693713117/Sierra%20Nevada%20Web%20Designs/rozlfcmjmwalnfhlrgje.png'/>
                         <button className='portfolioButton' onClick={surf}>Visit Site</button>
                     </div>
                 </div>
                 <div className='contentWrapperPortfolio'>
                     <div className='contentBlockImgPortfolio'>
-                        <img className='portfolioMockupImg' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693509632/zf8pwwcboovysxfae2c8.png'/>
+                        <img className='portfolioMockupImg' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693713117/Sierra%20Nevada%20Web%20Designs/tebqfmvckgun9kpgyi1b.png'/>
                         <button className='portfolioButton' onClick={dharma}>Visit Site</button>
                     </div>
                     <div className='contentBlockTextPortfolio'>

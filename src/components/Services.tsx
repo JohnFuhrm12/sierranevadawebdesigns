@@ -9,7 +9,7 @@ function Services() {
             <div className='infoBlock'>
                 <div className='contentWrapperServices'>
                     <div className='contentBlockImg'>
-                        <img className='infoImg' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693547686/dw0p59l0ij52jkc0z0ij.jpg'/>
+                        <img className='infoImg' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693712629/Sierra%20Nevada%20Web%20Designs/k8avu17x0gy7oupxpxkb.jpg'/>
                     </div>
                     <div className='contentBlockText'>
                         <h2 className='subTitlePage'><span className='titleBlue'>Web</span>Design & Development</h2>

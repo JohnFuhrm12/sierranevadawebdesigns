@@ -10,7 +10,7 @@ function Home() {
             <h1 id='title'>Web Design & Development For Small Businesses</h1>
             <Link to='/contact' id='contactButtonTitle'>Work With Us</Link>
             </div>
-            <img id='mockup' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693372448/qntzs1n6cyxtwu3ofrql.png' alt='Display Site'/>
+            <img id='mockup' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693713116/Sierra%20Nevada%20Web%20Designs/keitflfmcmhdzd9zne2u.png' alt='Display Site'/>
         </div>
         <div id='buffer'></div>
         <svg id='wave' viewBox="0 0 500 200">
@@ -25,9 +25,9 @@ function Home() {
             <p className='infoPara'>You will recieve a completely handcoded and personalized website that is fully responsive and optimized, no website builders. You are taken through the design process and will be able to make as many changes and improvements as you would like before, during, and even the first month after launch. Websites are available in English, Spanish, or both! </p>
             <p className='infoPara'>We stay in contact and walk you through domains, hosting, and maintenance, and we only deliver if you are 100% satisfied with your site.</p>
             <div id='homePortfolioWrapper'>
-                <img id='surfMockup' className='mockupPortfolio' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693463575/mammqpa0fuijhg960yvf.png' alt='Hawaii Surf Site'/>
-                <img className='mockupPortfolio' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693372448/qntzs1n6cyxtwu3ofrql.png' alt='Reef Supplies Site'/>
-                <img className='mockupPortfolio' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693509632/zf8pwwcboovysxfae2c8.png' alt='Pastry Site'/>
+                <img id='surfMockup' className='mockupPortfolio' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693713117/Sierra%20Nevada%20Web%20Designs/rozlfcmjmwalnfhlrgje.png' alt='Hawaii Surf Site'/>
+                <img className='mockupPortfolio' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693713116/Sierra%20Nevada%20Web%20Designs/keitflfmcmhdzd9zne2u.png' alt='Reef Supplies Site'/>
+                <img className='mockupPortfolio' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693713117/Sierra%20Nevada%20Web%20Designs/tebqfmvckgun9kpgyi1b.png' alt='Pastry Site'/>
             </div>
             <Link to='/portfolio' id='portfolioButton'>View Our Portfolio</Link>
         </div>
