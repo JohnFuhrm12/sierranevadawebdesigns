@@ -39,8 +39,8 @@ function App() {
       <Route path='/services' element={ <Services/> }/>
       <Route path='/portfolio' element={ <Portfolio/> }/>
       <Route path='/contact' element={ <Contact/> }/>
-      <Route path="/404" element={<PageNotFound/>}/>
-      <Route path="*" element={<Navigate to="/404"/>}/>
+      <Route path="/404" element={ <PageNotFound/> }/>
+      <Route path="*" element={ <Navigate to="/404"/>}/>
     </Routes>
     <Footer/>
     </>
