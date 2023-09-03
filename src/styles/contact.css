@@ -72,6 +72,13 @@
     top: -8px;
  }
 
+ .successMessage {
+   color: rgb(0, 220, 0);
+   font-size: 25px;
+   margin-bottom: 3%;
+   font-weight: bold;
+ }
+
  @media (max-width: 600px) {
    #contactBackground {
       background-image: url('https://res.cloudinary.com/dvmw658s9/image/upload/v1693713378/Sierra%20Nevada%20Web%20Designs/lyflcoa2mwetztr0lsae.jpg');
@@ -121,4 +128,9 @@
       margin-top: 5%;
       margin-left: 60%;
    }
+
+   .successMessage {
+      font-size: 18px;
+      margin-inline: 5%;
+    }
  }
