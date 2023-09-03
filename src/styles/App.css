@@ -13,3 +13,13 @@
 .fade.active {
   opacity: 1;
 } 
+
+#pageNotFoundMessage {
+  font-size: 40px;
+  padding-top: 10%;
+  padding-bottom: 20%;
+}
+
+#errorRed {
+  color: red;
+}

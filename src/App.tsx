@@ -6,8 +6,9 @@ import Services from './components/Services';
 import Contact from './components/Contact';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
+import PageNotFound from './components/PageNotFound';
 
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 
 function App() {
 
@@ -38,6 +39,8 @@ function App() {
       <Route path='/services' element={ <Services/> }></Route>
       <Route path='/portfolio' element={ <Portfolio/> }></Route>
       <Route path='/contact' element={ <Contact/> }></Route>
+      <Route path="/404" element={<PageNotFound />} />
+      <Route path="*" element={<Navigate to="/404" />} />
     </Routes>
     <Footer/>
     </>
