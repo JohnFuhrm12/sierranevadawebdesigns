@@ -49,7 +49,7 @@ function App() {
       <Route path="/404" element={ <PageNotFound/> }/>
       <Route path="*" element={ <Navigate to="/404"/>}/>
     </Routes>
-    <Footer/>
+    <Footer {...props}/>
     </>
   )
 }
