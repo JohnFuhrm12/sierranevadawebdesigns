@@ -1,13 +1,27 @@
 import '../styles/home.css';
 import { Link } from 'react-router-dom';
 
-function Home() {
+function Home( {...props} ) {
+
+    const englishContent = {
+        title: 'Web Design & Development For Small Businesses',
+    }
+
+    let content = englishContent;
+
+    if (props.language === 'ES') {
+        content = {
+            title: 'Diseño & Desarollo Web Para Empresas Pequeñas',
+        }
+    } else {
+        content = englishContent;
+    }
 
     return (
         <>
         <div id='topContent'>
             <div id='titleWrapper'>
-            <h1 id='title'>Web Design & Development For Small Businesses</h1>
+            <h1 id='title'>{content.title}</h1>
             <Link to='/contact' id='contactButtonTitle'>Work With Us</Link>
             </div>
             <img id='mockup' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693713116/Sierra%20Nevada%20Web%20Designs/keitflfmcmhdzd9zne2u.png' alt='Display Site'/>

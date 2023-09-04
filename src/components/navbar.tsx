@@ -2,9 +2,8 @@ import { useState } from 'react';
 import '../styles/navbar.css';
 import { Link } from 'react-router-dom';
 
-function Navbar() {
+function Navbar( {...props} ) {
     const [showingDropDown, setShowingDropDown] = useState(false);
-    const [language, setLanguage] = useState('EN');
 
     function MobileNavAnimation() {
         const hamburgerMenu = document.getElementById('menuCheck') as HTMLInputElement;
@@ -41,8 +40,8 @@ function Navbar() {
     function toggleEnglish() {
         const indicator = document.getElementById('toggleLanguage') as HTMLElement;
 
-        if (language !== 'EN') {
-            setLanguage('EN');
+        if (props.language !== 'EN') {
+            props.setLanguage('EN');
             showDropdown();
             indicator.innerHTML = 'EN';
         }
@@ -51,11 +50,33 @@ function Navbar() {
     function toggleSpanish() {
         const indicator = document.getElementById('toggleLanguage') as HTMLElement;
 
-        if (language !== 'ES') {
-            setLanguage('ES');
+        if (props.language !== 'ES') {
+            props.setLanguage('ES');
             showDropdown();
             indicator.innerHTML = 'ES';
         }
+    }
+
+    const englishContent = {
+        home: 'Home',
+        about: 'About',
+        services: 'Services',
+        portfolio: 'Portfolio',
+        contact: 'Contact'
+    }
+
+    let content = englishContent;
+
+    if (props.language === 'ES') {
+        content = {
+            home: 'Inicio',
+            about: 'Acerca De',
+            services: 'Servicios',
+            portfolio: 'Portfolio',
+            contact: 'Contáctanos '
+        }
+    } else {
+        content = englishContent;
     }
 
     return (
@@ -71,11 +92,11 @@ function Navbar() {
                     </Link>
                 </div>
                 <nav id='navItemsWrapper'>
-                    <Link to='/' className='navItem'>Home</Link>
-                    <Link to='/about' className='navItem'>About</Link>
-                    <Link to='/services' className='navItem'>Services</Link>
-                    <Link to='/portfolio' className='navItem'>Portfolio</Link>
-                    <Link to='/contact' className='navItem'>Contact</Link>
+                    <Link to='/' className='navItem'>{content.home}</Link>
+                    <Link to='/about' className='navItem'>{content.about}</Link>
+                    <Link to='/services' className='navItem'>{content.services}</Link>
+                    <Link to='/portfolio' className='navItem'>{content.portfolio}</Link>
+                    <Link to='/contact' className='navItem'>{content.contact}</Link>
                     <h2 id='toggleLanguage' onClick={showDropdown}>EN</h2>
                     <label id='hamburgerMenu' onClick={MobileNavAnimation}>
                         <input id='menuCheck' type='checkbox'/>
@@ -87,11 +108,11 @@ function Navbar() {
                 <h2 className='dropItem' onClick={toggleSpanish}>Español</h2>
             </div>
             <div id='hamburgerNav'>
-                <Link to='/' className='mobileNavLink' onClick={closeNav}>Home</Link>
-                <Link to='/about' className='mobileNavLink' onClick={closeNav}>About</Link>
-                <Link to='/services' className='mobileNavLink' onClick={closeNav}>Services</Link>
-                <Link to='/portfolio' className='mobileNavLink' onClick={closeNav}>Portfolio</Link>
-                <Link to='/contact' className='mobileNavLink' onClick={closeNav}>Contact</Link>
+                <Link to='/' className='mobileNavLink' onClick={closeNav}>{content.home}</Link>
+                <Link to='/about' className='mobileNavLink' onClick={closeNav}>{content.about}</Link>
+                <Link to='/services' className='mobileNavLink' onClick={closeNav}>{content.services}</Link>
+                <Link to='/portfolio' className='mobileNavLink' onClick={closeNav}>{content.portfolio}</Link>
+                <Link to='/contact' className='mobileNavLink' onClick={closeNav}>{content.contact}</Link>
             </div>
         </>
     );
