@@ -146,6 +146,57 @@
     text-shadow: 0 0 5px aqua, 0 0 10px aqua;
 }
 
+#toggleLanguage {
+    border-bottom: solid 3px black;
+    max-height: 40px;
+    margin-top: 15px;
+    margin-inline: 0.4em;
+    transition: 0.5s;
+}
+
+#toggleLanguage:hover {
+    cursor: pointer;
+    border-bottom: solid 3px rgba(0, 187, 255, 0.788);
+    transition: 0.5s;
+}
+
+#dropDownLanguage {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 1%;
+    transition: 0.5s;
+    position: relative;
+    z-index: 3;
+    background-color: rgba(24, 24, 24, 0.864);
+    margin-bottom: -100px;
+    max-width: 5%;
+    left: 82%;
+    top: -10px;
+    padding-bottom: 0.2%;
+    padding-top: 0.5%;
+    text-align: left;
+    padding-right: 5%;
+    box-shadow: 0px 0px 3px rgba(0, 187, 255, 0.788);
+    translate: 0 -250%;
+}
+
+.dropItem {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5%;
+    font-size: 20px;
+    padding-bottom: 3px;
+    border-bottom: solid 2px rgba(24, 24, 24, 0.864);
+    transition: 0.5s;
+}
+
+.dropItem:hover{
+    cursor: pointer;
+    border-bottom: solid 2px rgba(0, 187, 255, 0.788);
+    transition: 0.5s;
+}
+
 @media (max-width: 600px) {
     .titleItem {
         font-size: 15px;
@@ -167,6 +218,10 @@
         text-decoration: none;
         color: white;
         margin-top: -1.5rem;
+     }
+
+     #toggleLanguage, #dropDownLanguage {
+        display: none;
      }
 
 }
