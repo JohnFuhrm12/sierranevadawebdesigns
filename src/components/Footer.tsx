@@ -23,6 +23,8 @@ function Footer( {...props} ) {
 
     let content = englishContent;
 
+    //á, é, í, ó, ú, ü, ñ, ¿, ¡)
+
     if (props.language === 'ES') {
         content = {
             aboutPara: `Sierra Nevada Web Designs es una compañía local basado en NJ de desarollo web. 

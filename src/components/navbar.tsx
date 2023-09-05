@@ -67,6 +67,8 @@ function Navbar( {...props} ) {
 
     let content = englishContent;
 
+    //á, é, í, ó, ú, ü, ñ, ¿, ¡)
+
     if (props.language === 'ES') {
         content = {
             home: 'Inicio',

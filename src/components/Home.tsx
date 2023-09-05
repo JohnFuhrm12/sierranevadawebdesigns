@@ -21,6 +21,8 @@ function Home( {...props} ) {
 
     let content = englishContent;
 
+    //á, é, í, ó, ú, ü, ñ, ¿, ¡)
+
     if (props.language === 'ES') {
         content = {
             title: 'Diseño & Desarollo Web Para Empresas Pequeñas',

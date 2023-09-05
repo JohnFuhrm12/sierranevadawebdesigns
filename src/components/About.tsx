@@ -15,6 +15,8 @@ function About( {...props} ) {
 
 let content = englishContent;
 
+//á, é, í, ó, ú, ü, ñ, ¿, ¡)
+
 if (props.language === 'ES') {
     content = {
       titleBlue: 'Acerca De',

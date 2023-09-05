@@ -46,7 +46,7 @@ function App() {
       <Route path='/services' element={ <Services {...props}/> }/>
       <Route path='/portfolio' element={ <Portfolio {...props}/> }/>
       <Route path='/contact' element={ <Contact {...props}/> }/>
-      <Route path="/404" element={ <PageNotFound/> }/>
+      <Route path="/404" element={ <PageNotFound {...props}/> }/>
       <Route path="*" element={ <Navigate to="/404"/>}/>
     </Routes>
     <Footer {...props}/>
