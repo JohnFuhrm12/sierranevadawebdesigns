@@ -57,6 +57,22 @@ function Navbar( {...props} ) {
         }
     }
 
+    function toggleLanguageMobile() {
+        const indicator = document.getElementById('toggleLanguageMobile') as HTMLElement;
+
+        if (props.language === 'EN') {
+            props.setLanguage('ES');
+            closeNav();
+            indicator.innerHTML = 'ES';
+        }
+
+        if (props.language === 'ES') {
+            props.setLanguage('EN');
+            closeNav();
+            indicator.innerHTML = 'EN';
+        }
+    }
+
     const englishContent = {
         home: 'Home',
         about: 'About',
@@ -115,6 +131,7 @@ function Navbar( {...props} ) {
                 <Link to='/services' className='mobileNavLink' onClick={closeNav}>{content.services}</Link>
                 <Link to='/portfolio' className='mobileNavLink' onClick={closeNav}>{content.portfolio}</Link>
                 <Link to='/contact' className='mobileNavLink' onClick={closeNav}>{content.contact}</Link>
+                <h2 className='mobileNavLink' id='toggleLanguageMobile' onClick={toggleLanguageMobile}>EN</h2>
             </div>
         </>
     );
