@@ -2,9 +2,9 @@ import '../styles/about.css';
 
 function About( {...props} ) {
   const englishContent = {
-    titleBlue: 'About',
+    titleBlue: 'About ',
     title: 'Us',
-    subtitleBlue: 'About',
+    subtitleBlue: 'About ',
     subtitle: 'Sierra Nevada Web Designs',
     inforPara1: `We named our company after the breathaking views of the Sierra Nevada Mountains in Colombia, and we want to bring that same stunning design to your business. 
     My name is John, and as the sole developer with nearly 2 years of experience building and designing websites, my mission is to build an amazing website for your business.`,
@@ -19,9 +19,9 @@ let content = englishContent;
 
 if (props.language === 'ES') {
     content = {
-      titleBlue: 'Acerca De',
+      titleBlue: 'Acerca De ',
       title: 'Nosotros',
-      subtitleBlue: 'Acerca De',
+      subtitleBlue: 'Acerca De ',
       subtitle: 'Sierra Nevada Web Designs',
       inforPara1: `El nombre de nuestra compañia viene de las vistas impresionantes de las montañas de la Sierra Nevada en Colombia, y queremos traer esa misma diseña imponente a su empresa.
       Me llamo John, y como el único desarollador con casi 2 años de experiencia construyendo y diseñando sitios web, mi misión es constuir un sitio increíble para su empresa.`,
@@ -35,16 +35,16 @@ if (props.language === 'ES') {
 
     return (
         <>
-        <div id='aboutBackground'>
-          <h1 id='titleAbout' className='title'><span className='titleBlue'>{content.titleBlue}</span>{content.title}</h1>
+        <div className='background' id='aboutBackground'>
+          <h1 className='pageTitle'><span className='titleColor'>{content.titleBlue}</span>{content.title}</h1>
+          </div>
           <div className='infoBlocks'>
             <div className='infoBlock'>
-                <h2 className='subTitlePage'><span className='titleBlue'>{content.subtitleBlue}</span>{content.subtitle}</h2>
+                <h2 className='subTitle'><span className='titleColor'>{content.subtitleBlue}</span>{content.subtitle}</h2>
                 <p className='infoParaLarge'>{content.inforPara1}</p>
                 <p className='infoParaLarge'>{content.infoPara2}</p>
             </div>
           </div>
-        </div>
         </>
     )
 }

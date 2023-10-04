@@ -1,14 +1,12 @@
+#root {
+    --brandColor1: white;
+    --brandColor2: black;
+    --brandColor3: rgb(189, 189, 189);
+    --flickerOffset: rgb(189, 189, 189);
+  }
+
 #portfolioBackground {
     background-image: url('https://res.cloudinary.com/dvmw658s9/image/upload/v1693713118/Sierra%20Nevada%20Web%20Designs/d4l6y7t2wppjnokenl7q.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#subtitlePortfolio {
-    margin-bottom: 2%;
 }
 
 .contentWrapperPortfolio {
@@ -24,8 +22,7 @@
 
 .portfolioMockupImg {
     width: 100%;
-    filter: drop-shadow(0px 2px 3px rgba(0, 187, 255, 0.788));
-    animation: mockFlicker 2.5s ease-out infinite alternate; 
+    filter: drop-shadow(0px 2px 3px var(--brandColor3));
 }
 
 .contentBlockTextPortfolio {
@@ -33,41 +30,11 @@
     margin-top: 2%;
 }
 
-.portfolioButton {
-    padding: 2%;
-    font-size: 20px;
-    border-radius: 15px;
-    border: solid 3px rgba(0, 187, 255, 0.788);
-    box-shadow: 0px 0px 30px rgba(0, 187, 255, 0.788);
-    background-color: black;
-    max-width: 35%;
-    margin-top: 2%;
-    text-shadow: 0 0 7px rgba(0, 187, 255, 0.788), 0 0 10px rgba(0, 187, 255, 0.788);
-    animation: flicker 2.5s ease-out infinite alternate;  
-    transition: 0.5s;
-    position: relative;
-    top: 0px;
-}
-
-.portfolioButton:hover {
-    cursor: pointer;
-    text-shadow: 0 0 7px aqua, 0 0 10px aqua;
-    transition: 0.5s;
-    top: -8px;
-}
-
 @media (max-width: 600px) {
     .contentWrapperPortfolio {
         display: flex;
         flex-direction: column-reverse;
         margin-bottom: 5%;
-    }
-
-    .portfolioButton {
-        padding: 5%;
-        font-size: 18px;
-        max-width: 70%;
-        margin-top: 2%;
     }
 
     .contentBlockImgPortfolio {

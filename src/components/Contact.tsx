@@ -1,3 +1,4 @@
+import '../styles/App.css';
 import '../styles/contact.css';
 import { useForm, ValidationError } from '@formspree/react';
 
@@ -11,11 +12,11 @@ function Contact( {...props} ) {
     }
 
     const englishContent = {
-        titleBlue: 'Contact',
+        titleBlue: 'Contact ',
         title: 'Us',
-        subtitleBlue: 'Send',
+        subtitleBlue: 'Send ',
         subtitle: 'Us A Message',
-        infoParagraph1: `Fill out the form below or contact us at snwebdesigns@gmail.com.`,
+        infoParagraph1: `Fill out the form below or contact us at sierranevadawebdesigns@gmail.com.`,
         infoParagraph2: `Send us a call at +1 (609)-351-0536`,
         namePlaceholder: 'Full Name',
         businessPlaceholder: 'Business Name',
@@ -31,11 +32,11 @@ function Contact( {...props} ) {
 
     if (props.language === 'ES') {
         content = {
-            titleBlue: 'Contactános',
+            titleBlue: 'Contactános ',
             title: '',
-            subtitleBlue: 'Mandanos',
+            subtitleBlue: 'Mandanos ',
             subtitle: 'Un Mensaje',
-            infoParagraph1: `Completa el formulario abajo o contactános por snwebdesigns@gmail.com.`,
+            infoParagraph1: `Completa el formulario abajo o contactános por sierranevadawebdesigns@gmail.com.`,
             infoParagraph2: `Mándanos una llamada por +1 (609)-351-0536`,
             namePlaceholder: 'Nombre Completo',
             businessPlaceholder: 'Nombre de Empresa',
@@ -50,11 +51,12 @@ function Contact( {...props} ) {
 
     return (
         <>
-        <div id='contactBackground'>
-          <h1 className='title'><span className='titleBlue'>{content.titleBlue}</span>{content.title}</h1>
+        <div className='background' id='contactBackground'>
+          <h1 id='contactTitle' className='pageTitle'><span className='titleColor'>{content.titleBlue}</span>{content.title}</h1>
+          </div>
           <div id='infoBlocksContact'>
             <div className='infoBlock'>
-                <h2 className='subTitlePage'><span className='titleBlue'>{content.subtitleBlue}</span>{content.subtitle}</h2>
+                <h2 className='subTitle'><span className='titleColor'>{content.subtitleBlue}</span>{content.subtitle}</h2>
                 <p className='infoPara'>{content.infoParagraph1}</p>
                 <p className='infoPara'>{content.infoParagraph2}</p>
             </div>
@@ -66,11 +68,10 @@ function Contact( {...props} ) {
                     <input type='text' name='phone' placeholder={content.phonePlaceholder} required/>
                     <input type='text' name='email' placeholder={content.emailPlaceholder} required/>
                     <textarea name='message' placeholder={content.messagePlaceholder} required/>
-                    <button id='contactSubmitButton' type='submit' disabled={state.submitting}>{content.submitButton}</button>
+                    <button className='button' id='contactSubmitButton' type='submit' disabled={state.submitting}>{content.submitButton}</button>
                 </form>
             </div>
           </div>
-        </div>
         </>
     )
 }

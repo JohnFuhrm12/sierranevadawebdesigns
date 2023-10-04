@@ -1,3 +1,10 @@
+#root {
+    --brandColor1: white;
+    --brandColor2: black;
+    --brandColor3: rgb(189, 189, 189);
+    --flickerOffset: rgb(189, 189, 189);
+  }
+
 #footerWrapper {
     display: flex;
     flex-direction: row;
@@ -6,18 +13,8 @@
     padding-top: 3%;
     padding-bottom: 2%;
     justify-content: space-around;
-    box-shadow: 0px 4px 2px -2px rgba(0, 187, 255, 0.788);
-    animation: borderFlicker 1.5s ease-out infinite alternate;  
+    box-shadow: 0px 4px 2px -2px var(--brandColor1);
 }
-
-@keyframes borderFlicker {
-    0% {
-        box-shadow: 0px 3px 2px -2px rgba(0, 187, 255, 0.788);
-    }
-    100%{       
-        box-shadow: 0px 5px 2px -2px rgba(0, 187, 255, 0.788);
-    }
-  }
 
 .footerLinksWrapper {
     display: flex;
@@ -26,9 +23,9 @@
 }
 
 .footerLinkTitle {
-    color: rgba(0, 187, 255, 0.788);
+    color: var(--brandColor3);
     margin: 0;
-    border-bottom: solid 2px rgba(0, 187, 255, 0.788);
+    border-bottom: solid 2px var(--brandColor3);
     padding-bottom: 10%;
     margin-bottom: 10%;
     font-size: 20px;
@@ -41,13 +38,13 @@
     margin-bottom: 3%;
     transition: 0.5s;
     text-decoration: none;
-    color: white;
+    color: var(--brandColor1);
     font-weight: bold;
 }
 
 .footerLink:hover {
     transition: 0.5s;
-    text-shadow: 0 0 5px aqua, 0 0 10px aqua;
+    text-shadow: 0 0 5px var(--brandColor1), 0 0 10px var(--flickerOffset);
 }
 
 .footerLinkSmall {
@@ -60,7 +57,7 @@
 
 .footerLinkSmall:hover {
     transition: 0.5s;
-    text-shadow: 0 0 5px aqua, 0 0 10px aqua;
+    text-shadow: 0 0 5px var(--brandColor1), 0 0 10px var(--flickerOffset);
 }
 
 #copyright {
@@ -71,7 +68,7 @@
 #footerContact {
     -webkit-transform: rotate(-90deg);
     margin-bottom: -1%;
-    text-shadow: 0 0 5px aqua, 0 0 10px aqua;
+    text-shadow: 0 0 5px var(--brandColor1), 0 0 10px var(--flickerOffset);
     font-size: 30px;
     margin-right: -15%;
     position: relative;
@@ -96,10 +93,10 @@
 
 @keyframes flickerContact {
     0% {
-      text-shadow: 0 0 4px aqua, 0 0 10px aqua;
+      text-shadow: 0 0 4px var(--brandColor1), 0 0 10px var(--flickerOffset);
     }
     100% {       
-        text-shadow: 0 0 30px aqua, 0 0 10px aqua;
+        text-shadow: 0 0 30px var(--brandColor1), 0 0 10px var(--flickerOffset);
     }
   }
 
