@@ -1,3 +1,4 @@
+import '../styles/App.css';
 import '../styles/home.css';
 import { Link } from 'react-router-dom';
 
@@ -44,23 +45,20 @@ function Home( {...props} ) {
 
     return (
         <>
-        <div id='topContent'>
-            <div id='titleWrapper'>
-            <h1 id='title'>{content.title}</h1>
-            <Link to='/contact' id='contactButtonTitle'>{content.contactButton}</Link>
+        <div id='topBackground'>
+            <div id='topContent'>
+                <div id='titleWrapper'>
+                <h1 id='title'>{content.title}</h1>
+                <Link to='/contact' className='button' id='contactButtonTitle'>{content.contactButton}</Link>
+                </div>
             </div>
-            <img id='mockup' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693713116/Sierra%20Nevada%20Web%20Designs/keitflfmcmhdzd9zne2u.png' alt='Display Site'/>
         </div>
-        <div id='buffer'></div>
-        <svg id='wave' viewBox="0 0 500 200">
-            <path d="M 0 30 C 150 100 280 0 500 20 L 500 0 L 0 0" fill="rgb(0, 0, 0)"></path>
-        </svg>
         <div className='fade' id='aboutContent'>
-            <h2 className='subTitle'><span className='subTitleBlue'>{content.introSubtitleBlue}</span>{content.introSubtitle}</h2>
+            <h2 className='subTitle'><span className='subTitleColor'>{content.introSubtitleBlue}</span>{content.introSubtitle}</h2>
             <p className='infoPara'>{content.introParagraph}</p>
         </div>
         <div className='fade' id='offerContent'>
-            <h2 className='subTitle'><span className='subTitleBlue'>{content.offerSubtitleBlue}</span>{content.offerSubtitle}</h2>
+            <h2 className='subTitle'><span className='subTitleColor'>{content.offerSubtitleBlue}</span>{content.offerSubtitle}</h2>
             <p className='infoPara'>{content.offerParagraph1}</p>
             <p className='infoPara'>{content.offerParagraph2}</p>
             <div id='homePortfolioWrapper'>
@@ -68,7 +66,7 @@ function Home( {...props} ) {
                 <img className='mockupPortfolio' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693713116/Sierra%20Nevada%20Web%20Designs/keitflfmcmhdzd9zne2u.png' alt='Reef Supplies Site'/>
                 <img className='mockupPortfolio' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693713117/Sierra%20Nevada%20Web%20Designs/tebqfmvckgun9kpgyi1b.png' alt='Pastry Site'/>
             </div>
-            <Link to='/portfolio' id='portfolioButton'>{content.portfolioButton}</Link>
+            <Link to='/portfolio' className='button' id='portfolioButton'>{content.portfolioButton}</Link>
         </div>
         </>
     );

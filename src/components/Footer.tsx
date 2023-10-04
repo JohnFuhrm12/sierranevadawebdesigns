@@ -6,7 +6,7 @@ function Footer( {...props} ) {
         aboutPara: `Sierra Nevada Web Designs is a local, NJ based web development company. 
         Our goal is to create affordable, responsive, and stunning websites for small businesses.`,
         contactHeader: 'Contact Us',
-        email: 'snwebdesigns@gmail.com',
+        email: 'sierranevadawebdesigns@gmail.com',
         number: '+1 (609)-351-0536',
         navHeader: 'Navigate',
         home: 'Home',
@@ -30,7 +30,7 @@ function Footer( {...props} ) {
             aboutPara: `Sierra Nevada Web Designs es una compañía local basado en NJ de desarollo web. 
             Nuestra meta es crear sitios hermosos, responsivos, y económicos para empresas pequeñas.`,
             contactHeader: 'Contáctanos',
-            email: 'snwebdesigns@gmail.com',
+            email: 'sierranevadawebdesigns@gmail.com',
             number: '+1 (609)-351-0536',
             navHeader: 'Navegar',
             home: 'Inicio',

@@ -102,11 +102,7 @@ function Navbar( {...props} ) {
             <div id='wrapper'>
                 <div id='navTitleLogoWrapper'>
                     <Link to='/'>
-                    <img id='logo' src='' alt=''/>
-                    <div id='navTitleWrapper'>
-                        <h2 className='titleItem'>Sierra Nevada</h2>
-                        <h2 className='titleItem'>Web Designs</h2>
-                    </div>
+                        <img id='logo' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1696441292/Sierra%20Nevada%20Web%20Designs/ojhj2hr8rris2jit0did.png' alt='logo'/>
                     </Link>
                 </div>
                 <nav id='navItemsWrapper'>
@@ -115,7 +111,7 @@ function Navbar( {...props} ) {
                     <Link to='/services' className='navItem'>{content.services}</Link>
                     <Link to='/portfolio' className='navItem'>{content.portfolio}</Link>
                     <Link to='/contact' className='navItem'>{content.contact}</Link>
-                    <h2 id='toggleLanguage' onClick={showDropdown}>EN</h2>
+                    <h2 className='navItem' id='toggleLanguage' onClick={showDropdown}>EN</h2>
                     <label id='hamburgerMenu' onClick={MobileNavAnimation}>
                         <input id='menuCheck' type='checkbox'/>
                     </label>

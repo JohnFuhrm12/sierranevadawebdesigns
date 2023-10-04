@@ -11,6 +11,9 @@
 #navTitleLogoWrapper {
     display: flex;
     flex-direction: row;
+    margin-top: -1%;
+    max-height: 50px;
+    margin-left: -8%;
 }
 
 #navTitleLogoWrapper:hover {
@@ -24,13 +27,16 @@
 }
 
 #logo {
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 20%;
+    margin-left: -70%;
+    position: relative;
+    z-index: -1;
 }
 
 #navTitleWrapper {
     display: flex;
     flex-direction: column;
+    margin-top: 15%;
 }
 
 .titleItem {
@@ -47,8 +53,7 @@
     margin-inline: 0.4em;
     transition: 0.5s;
     padding: 10px;
-    border-radius: 16px;
-    transition-timing-function: cubic-bezier(.58,.3,.005,1);
+    transition: 0.5s;
     border: solid 3px black;
     font-size: 25px;
     font-weight: bold;
@@ -59,10 +64,8 @@
 
 .navItem:hover {
     cursor: pointer;
-    box-shadow: 0px 0px 30px rgba(0, 187, 255, 0.788);
+    border-bottom: solid 3px white;
     transition: 0.5s;
-    transition-timing-function: cubic-bezier(.58,.3,.005,1);
-    border: solid 3px rgba(0, 187, 255, 0.675);
 }
 
 #hamburgerMenu {
@@ -148,15 +151,16 @@
 
 #toggleLanguage {
     border-bottom: solid 3px black;
+    margin-top: 0px;
     max-height: 40px;
-    margin-top: 15px;
     margin-inline: 0.4em;
     transition: 0.5s;
+    margin-bottom: 5px;
 }
 
 #toggleLanguage:hover {
     cursor: pointer;
-    border-bottom: solid 3px rgba(0, 187, 255, 0.788);
+    border-bottom: solid 3px white;
     transition: 0.5s;
 }
 
@@ -167,17 +171,17 @@
     padding: 1%;
     transition: 0.5s;
     position: relative;
-    z-index: 3;
-    background-color: rgba(24, 24, 24, 0.864);
+    z-index: 5;
+    background-color: black;
     margin-bottom: -100px;
     max-width: 5%;
     left: 82%;
-    top: -10px;
+    top: 10px;
     padding-bottom: 0.2%;
     padding-top: 0.5%;
     text-align: left;
     padding-right: 5%;
-    box-shadow: 0px 0px 3px rgba(0, 187, 255, 0.788);
+    border: solid 1px white;
     translate: 0 -250%;
 }
 
@@ -193,7 +197,7 @@
 
 .dropItem:hover{
     cursor: pointer;
-    border-bottom: solid 2px rgba(0, 187, 255, 0.788);
+    border-bottom: solid 2px white;
     transition: 0.5s;
 }
 

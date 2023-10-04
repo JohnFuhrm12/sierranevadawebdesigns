@@ -9,7 +9,8 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import PageNotFound from './components/PageNotFound';
 
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route, Navigate, useLocation  } from 'react-router-dom';
+import { useEffect } from "react";
 
 function App() {
   const [language, setLanguage] = useState('EN');
@@ -32,6 +33,17 @@ function App() {
     }
   } 
 
+  // All internal Links send you to the top
+  function ScrollToTop() {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+  
+    return null;
+  }
+
   const props = {
     language,
     setLanguage
@@ -39,6 +51,7 @@ function App() {
 
   return (
     <>
+    <ScrollToTop />
     <Navbar {...props}/>
     <Routes>
       <Route path='/' element={ <Home {...props}/> }/>
