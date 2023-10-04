@@ -28,6 +28,10 @@
         padding-bottom: 5%;
     }
 
+    #servicesSecondBackground {
+        background-attachment: local;
+    }
+
     .infoParaLarge {
         font-size: 16px;
         margin-inline: 7%;

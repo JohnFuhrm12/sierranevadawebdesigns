@@ -109,8 +109,14 @@
   }
   
   @media (max-width: 600px) {
+    #topBackground {
+      background-attachment: local;
+    }
+
     #titleWrapper {
       margin-right: 0vw;
+      position: relative;
+      top: -60px;
     }
   
     #title  {

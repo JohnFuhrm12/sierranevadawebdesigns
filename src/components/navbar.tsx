@@ -88,7 +88,7 @@ function Navbar( {...props} ) {
     if (props.language === 'ES') {
         content = {
             home: 'Inicio',
-            about: 'Acerca De',
+            about: 'Sobre',
             services: 'Servicios',
             portfolio: 'Portfolio',
             contact: 'Contáctanos '

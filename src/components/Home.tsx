@@ -45,7 +45,7 @@ function Home( {...props} ) {
 
     return (
         <>
-        <div id='topBackground'>
+        <div className='background' id='topBackground'>
             <div id='topContent'>
                 <div id='titleWrapper'>
                 <h1 id='title'>{content.title}</h1>

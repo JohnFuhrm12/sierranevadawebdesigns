@@ -133,25 +133,26 @@
 
 @media (max-width: 600px) {
   .pageTitle {
+    font-size: 30px;
     padding-bottom: 5%;
   }
 
   .subTitle {
-    font-size: 35px;
+    font-size: 20px;
     margin-bottom: 0;
   }
 
   .titleColor {
-      font-size: 30px;
+      font-size: 25px;
   }
 
   .subTitleColor {
-    font-size: 35px;
+    font-size: 20px;
     margin-bottom: 0;
   }
 
   .infoPara {
-    font-size: 16px;
+    font-size: 14px;
     margin-inline: 3%;
   }
 
@@ -166,12 +167,7 @@
   }
 
   .background {
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-bottom-left-radius: 25%;
-    border-bottom-right-radius: 25%;
-    padding-bottom: 2%;
+    background-attachment: local;
+    padding-bottom: 15%;
 }
 }

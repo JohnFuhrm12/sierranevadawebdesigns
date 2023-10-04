@@ -35,7 +35,7 @@ function Footer( {...props} ) {
             number: '+1 (609)-351-0536',
             navHeader: 'Navegar',
             home: 'Inicio',
-            about: 'Acerca De',
+            about: 'Sobre',
             services: 'Servicios',
             portfolio: 'Portfolio',
             contact: 'Contáctanos ',
