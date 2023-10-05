@@ -113,7 +113,7 @@ function Navbar( {...props} ) {
                     <Link to='/contact' className='navItem'>{content.contact}</Link>
                     <h2 className='navItem' id='toggleLanguage' onClick={showDropdown}>EN</h2>
                     <label id='hamburgerMenu' onClick={MobileNavAnimation}>
-                        <input id='menuCheck' type='checkbox'/>
+                        <input id='menuCheck' type='checkbox' aria-label="menuCheck"/>
                     </label>
                 </nav>
             </div>
