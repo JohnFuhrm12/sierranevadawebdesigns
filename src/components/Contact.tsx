@@ -16,7 +16,7 @@ function Contact( {...props} ) {
         title: 'Us',
         subtitleBlue: 'Send ',
         subtitle: 'Us A Message',
-        infoParagraph1: `Fill out the form below or contact us at sierranevadawebdesigns@gmail.com.`,
+        infoParagraph1: `Fill out the form below or contact us at `,
         infoParagraph2: `Send us a call at +1 (609)-351-0536`,
         namePlaceholder: 'Full Name',
         businessPlaceholder: 'Business Name',
@@ -57,7 +57,7 @@ function Contact( {...props} ) {
           <div id='infoBlocksContact'>
             <div className='infoBlock'>
                 <h2 className='subTitle'><span className='titleColor'>{content.subtitleBlue}</span>{content.subtitle}</h2>
-                <p className='infoPara'>{content.infoParagraph1}</p>
+                <p className='infoPara'>{content.infoParagraph1}<a href='mailto:sierranevadawebdesigns@gmail.com' id='emailLink'>sierranevadawebdesigns@gmail.com</a><span>.</span></p>
                 <p className='infoPara'>{content.infoParagraph2}</p>
             </div>
             <div id='contactFormBackground'>

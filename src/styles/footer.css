@@ -100,6 +100,12 @@
     }
   }
 
+#footerEmail {
+    font-weight: bold;
+    color: var(--brandColor1);
+    text-decoration: none;
+}
+
 @media (max-width: 600px) {
     #footerWrapper {
         display: flex;

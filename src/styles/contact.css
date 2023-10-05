@@ -76,6 +76,19 @@
    font-weight: bold;
  }
 
+ #emailLink {
+   font-weight: bold;
+   color: var(--brandColor1);
+   text-decoration: none;
+   transition: 0.5s;
+}
+
+#emailLink:hover {
+   cursor: pointer;
+   text-shadow: 0 0 5px var(--brandColor1), 0 0 10px var(--flickerOffset);
+   transition: 0.5s;
+}
+
  @media (max-width: 600px) {
    #contactBackground {
       background-image: url('https://res.cloudinary.com/dvmw658s9/image/upload/v1696441292/Sierra%20Nevada%20Web%20Designs/ojhj2hr8rris2jit0did.png');

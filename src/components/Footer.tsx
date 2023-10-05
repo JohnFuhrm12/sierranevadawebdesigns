@@ -55,7 +55,7 @@ function Footer( {...props} ) {
             <p id='footerAboutPara'>{content.aboutPara}</p>
             <h2 id='footerContact'>{content.contactHeader}</h2>
             <div className='footerLinksWrapperContact'>
-                <h2 className='footerLinkSmall'>{content.email}</h2>
+                <a href='mailto:sierranevadawebdesigns@gmail.com' className='footerLinkSmall' id='footerEmail'>{content.email}</a>
                 <h2 className='footerLinkSmall'>{content.number}</h2>
             </div>
             <div className="footerLinksWrapper">
