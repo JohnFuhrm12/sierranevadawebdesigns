@@ -3,7 +3,7 @@ import '../styles/contact.css';
 import { useForm, ValidationError } from '@formspree/react';
 
 function Contact( {...props} ) {
-    const [state, handleSubmit] = useForm("xvolwzaq");
+    const [state, handleSubmit] = useForm("xpzgoonw");
     
     if (state.succeeded) {
         return (
