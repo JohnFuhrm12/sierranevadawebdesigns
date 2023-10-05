@@ -102,7 +102,7 @@ function Navbar( {...props} ) {
             <div id='wrapper'>
                 <div id='navTitleLogoWrapper'>
                     <Link to='/'>
-                        <img id='logo' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1696441292/Sierra%20Nevada%20Web%20Designs/ojhj2hr8rris2jit0did.png' alt='logo'/>
+                        <img id='logo' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1696467835/Sierra%20Nevada%20Web%20Designs/i585gpxvzbvwkmiefs7s.webp' loading='lazy' alt='logo'/>
                     </Link>
                 </div>
                 <nav id='navItemsWrapper'>

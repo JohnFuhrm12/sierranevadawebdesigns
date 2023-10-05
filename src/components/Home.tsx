@@ -62,9 +62,9 @@ function Home( {...props} ) {
             <p className='infoPara'>{content.offerParagraph1}</p>
             <p className='infoPara'>{content.offerParagraph2}</p>
             <div id='homePortfolioWrapper'>
-                <img id='surfMockup' className='mockupPortfolio' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693713117/Sierra%20Nevada%20Web%20Designs/rozlfcmjmwalnfhlrgje.png' alt='Hawaii Surf Site'/>
-                <img className='mockupPortfolio' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693713116/Sierra%20Nevada%20Web%20Designs/keitflfmcmhdzd9zne2u.png' alt='Reef Supplies Site'/>
-                <img className='mockupPortfolio' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693713117/Sierra%20Nevada%20Web%20Designs/tebqfmvckgun9kpgyi1b.png' alt='Pastry Site'/>
+                <img id='surfMockup' className='mockupPortfolio' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1696466177/Sierra%20Nevada%20Web%20Designs/kc1ef82pc1ivxensojwf.webp' loading='lazy' alt='Hawaii Surf Site'/>
+                <img className='mockupPortfolio' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1696466143/Sierra%20Nevada%20Web%20Designs/qhktxl0hrsu5xii1mpyy.webp' loading='lazy' alt='Reef Supplies Site'/>
+                <img className='mockupPortfolio' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1696466064/Sierra%20Nevada%20Web%20Designs/wtshitshogk1hpbufz5b.webp' loading='lazy' alt='Pastry Site'/>
             </div>
             <Link to='/portfolio' className='button' id='portfolioButton'>{content.portfolioButton}</Link>
         </div>

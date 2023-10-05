@@ -78,7 +78,7 @@ function Portfolio( {...props} ) {
                 <h2 id='subtitlePortfolio' className='subTitle'><span className='subTitleColor'>{content.subtitlePortfolioBlue}</span>{content.subtitlePortfolio}</h2>
                 <div className='contentWrapperPortfolio'>
                     <div className='contentBlockImgPortfolio'>
-                        <img className='portfolioMockupImg' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693713116/Sierra%20Nevada%20Web%20Designs/keitflfmcmhdzd9zne2u.png'/>
+                        <img className='portfolioMockupImg' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1696466143/Sierra%20Nevada%20Web%20Designs/qhktxl0hrsu5xii1mpyy.webp' loading='lazy' alt='JF Aquatics'/>
                         <button className='button' onClick={aquatics}>{content.portfolioButton}</button>
                     </div>
                     <div className='contentBlockTextPortfolio'>
@@ -92,13 +92,13 @@ function Portfolio( {...props} ) {
                         <p className='infoParaLarge'>{content.portfolioPieceParagraph2}</p>
                     </div>
                     <div className='contentBlockImgPortfolio'>
-                        <img className='portfolioMockupImg' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693713117/Sierra%20Nevada%20Web%20Designs/rozlfcmjmwalnfhlrgje.png'/>
+                        <img className='portfolioMockupImg' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1696466177/Sierra%20Nevada%20Web%20Designs/kc1ef82pc1ivxensojwf.webp' loading='lazy' alt='Hawaii Surf'/>
                         <button className='button' onClick={surf}>{content.portfolioButton}</button>
                     </div>
                 </div>
                 <div className='contentWrapperPortfolio'>
                     <div className='contentBlockImgPortfolio'>
-                        <img className='portfolioMockupImg' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693713117/Sierra%20Nevada%20Web%20Designs/tebqfmvckgun9kpgyi1b.png'/>
+                        <img className='portfolioMockupImg' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1696466064/Sierra%20Nevada%20Web%20Designs/wtshitshogk1hpbufz5b.webp' loading='lazy' alt='Dharma'/>
                         <button className='button' onClick={dharma}>{content.portfolioButton}</button>
                     </div>
                     <div className='contentBlockTextPortfolio'>

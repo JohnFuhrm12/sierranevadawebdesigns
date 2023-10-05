@@ -6,7 +6,7 @@
  }
 
 #contactBackground {
-    background-image: url('https://res.cloudinary.com/dvmw658s9/image/upload/v1696441292/Sierra%20Nevada%20Web%20Designs/ojhj2hr8rris2jit0did.png');
+    background-image: url('https://res.cloudinary.com/dvmw658s9/image/upload/v1696467835/Sierra%20Nevada%20Web%20Designs/i585gpxvzbvwkmiefs7s.webp');
     background-size: 20%;
     background-position: 50% 65%;
     background-color: rgb(12, 12, 12);
@@ -91,7 +91,6 @@
 
  @media (max-width: 600px) {
    #contactBackground {
-      background-image: url('https://res.cloudinary.com/dvmw658s9/image/upload/v1696441292/Sierra%20Nevada%20Web%20Designs/ojhj2hr8rris2jit0did.png');
       background-size: 18%;
       background-position: 50% 80%;
       background-color: rgb(12, 12, 12);

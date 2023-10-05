@@ -85,7 +85,7 @@ function Services( {...props} ) {
             <div className='infoBlock'>
                 <div className='contentWrapperServices'>
                     <div className='contentBlockImg'>
-                        <img className='infoImg' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1693712629/Sierra%20Nevada%20Web%20Designs/k8avu17x0gy7oupxpxkb.jpg'/>
+                        <img className='infoImg' src='https://res.cloudinary.com/dvmw658s9/image/upload/v1696466625/Sierra%20Nevada%20Web%20Designs/touu5cxknypohokhpsw5.webp' loading='lazy' alt='webDev'/>
                     </div>
                     <div className='contentBlockText'>
                         <h2 className='subTitle'><span className='titleColor'>{content.designSubtitleBlue}</span>{content.designSubtitle}</h2>
