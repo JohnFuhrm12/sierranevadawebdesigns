@@ -36,7 +36,7 @@ function Contact( {...props} ) {
             title: '',
             subtitleBlue: 'Mandanos ',
             subtitle: 'Un Mensaje',
-            infoParagraph1: `Completa el formulario abajo o contactános por sierranevadawebdesigns@gmail.com.`,
+            infoParagraph1: `Completa el formulario abajo o contactános por `,
             infoParagraph2: `Mándanos una llamada por +1 (609)-351-0536`,
             namePlaceholder: 'Nombre Completo',
             businessPlaceholder: 'Nombre de Empresa',
